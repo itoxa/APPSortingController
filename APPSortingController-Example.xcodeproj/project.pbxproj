@@ -13,8 +13,11 @@
 		D119BBC61529CFD000663569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D119BBC41529CFD000663569 /* InfoPlist.strings */; };
 		D119BBC81529CFD000663569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBC71529CFD000663569 /* main.m */; };
 		D119BBCC1529CFD000663569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBCB1529CFD000663569 /* AppDelegate.m */; };
-		D119BBCF1529CFD000663569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBCE1529CFD000663569 /* ViewController.m */; };
-		D119BBD21529CFD000663569 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D119BBD01529CFD000663569 /* ViewController.xib */; };
+		D119BBDA1529D00600663569 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBD91529D00600663569 /* FirstViewController.m */; };
+		D119BBE11529D5F800663569 /* APPDarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBDE1529D5F800663569 /* APPDarkView.m */; };
+		D119BBE21529D5F800663569 /* APPSortingController.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBE01529D5F800663569 /* APPSortingController.m */; };
+		D119BBE51529D73100663569 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D119BBE41529D73100663569 /* SecondViewController.m */; };
+		D119BBF01529F8C100663569 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D119BBEF1529F8C100663569 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		D119BBBB1529CFD000663569 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D119BBBD1529CFD000663569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D119BBBF1529CFD000663569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D119BBC31529CFD000663569 /* APPSortingController-Example-Info.plist */ = {isa = PBXFileReference; path = "APPSortingController-Example-Info.plist"; sourceTree = "<group>"; };
+		D119BBC31529CFD000663569 /* APPSortingController-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APPSortingController-Example-Info.plist"; sourceTree = "<group>"; };
 		D119BBC51529CFD000663569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D119BBC71529CFD000663569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D119BBC91529CFD000663569 /* APPSortingController-Example-Prefix.pch */ = {isa = PBXFileReference; path = "APPSortingController-Example-Prefix.pch"; sourceTree = "<group>"; };
-		D119BBCA1529CFD000663569 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D119BBC91529CFD000663569 /* APPSortingController-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APPSortingController-Example-Prefix.pch"; sourceTree = "<group>"; };
+		D119BBCA1529CFD000663569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D119BBCB1529CFD000663569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D119BBCD1529CFD000663569 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		D119BBCE1529CFD000663569 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D119BBD11529CFD000663569 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D119BBD81529D00600663569 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D119BBD91529D00600663569 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D119BBDD1529D5F800663569 /* APPDarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDarkView.h; sourceTree = "<group>"; };
+		D119BBDE1529D5F800663569 /* APPDarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDarkView.m; sourceTree = "<group>"; };
+		D119BBDF1529D5F800663569 /* APPSortingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPSortingController.h; sourceTree = "<group>"; };
+		D119BBE01529D5F800663569 /* APPSortingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPSortingController.m; sourceTree = "<group>"; };
+		D119BBE31529D73100663569 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D119BBE41529D73100663569 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D119BBEF1529F8C100663569 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 		D119BBAC1529CFD000663569 = {
 			isa = PBXGroup;
 			children = (
+				D119BBEF1529F8C100663569 /* README */,
 				D119BBC11529CFD000663569 /* APPSortingController-Example */,
 				D119BBBA1529CFD000663569 /* Frameworks */,
 				D119BBB81529CFD000663569 /* Products */,
@@ -79,9 +89,11 @@
 			children = (
 				D119BBCA1529CFD000663569 /* AppDelegate.h */,
 				D119BBCB1529CFD000663569 /* AppDelegate.m */,
-				D119BBCD1529CFD000663569 /* ViewController.h */,
-				D119BBCE1529CFD000663569 /* ViewController.m */,
-				D119BBD01529CFD000663569 /* ViewController.xib */,
+				D119BBD81529D00600663569 /* FirstViewController.h */,
+				D119BBD91529D00600663569 /* FirstViewController.m */,
+				D119BBE31529D73100663569 /* SecondViewController.h */,
+				D119BBE41529D73100663569 /* SecondViewController.m */,
+				D119BBDC1529D5F800663569 /* APPSortingController */,
 				D119BBC21529CFD000663569 /* Supporting Files */,
 			);
 			path = "APPSortingController-Example";
@@ -96,6 +108,17 @@
 				D119BBC91529CFD000663569 /* APPSortingController-Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D119BBDC1529D5F800663569 /* APPSortingController */ = {
+			isa = PBXGroup;
+			children = (
+				D119BBDF1529D5F800663569 /* APPSortingController.h */,
+				D119BBE01529D5F800663569 /* APPSortingController.m */,
+				D119BBDD1529D5F800663569 /* APPDarkView.h */,
+				D119BBDE1529D5F800663569 /* APPDarkView.m */,
+			);
+			path = APPSortingController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D119BBC61529CFD000663569 /* InfoPlist.strings in Resources */,
-				D119BBD21529CFD000663569 /* ViewController.xib in Resources */,
+				D119BBF01529F8C100663569 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +185,10 @@
 			files = (
 				D119BBC81529CFD000663569 /* main.m in Sources */,
 				D119BBCC1529CFD000663569 /* AppDelegate.m in Sources */,
-				D119BBCF1529CFD000663569 /* ViewController.m in Sources */,
+				D119BBDA1529D00600663569 /* FirstViewController.m in Sources */,
+				D119BBE11529D5F800663569 /* APPDarkView.m in Sources */,
+				D119BBE21529D5F800663569 /* APPSortingController.m in Sources */,
+				D119BBE51529D73100663569 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +201,6 @@
 				D119BBC51529CFD000663569 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D119BBD01529CFD000663569 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D119BBD11529CFD000663569 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -208,7 +226,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,7 +244,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

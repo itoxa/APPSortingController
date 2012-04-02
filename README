@@ -1,0 +1,6 @@
+How to use APPSortingController:
+
+    1. copy APPSortingController and APPDarkView files to your project;
+    2. make strong ivar/property (APPSortingController) in your UIViewController subclass;
+    3. setup your APPSortingController;
+    4. call -[APPSortingController show].
